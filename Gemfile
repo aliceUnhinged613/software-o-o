@@ -52,14 +52,14 @@ group :production do
 end
 
 group :test do
-  gem 'capybara'
+  gem 'capybara', '>= 3.33.0'
   gem 'faker'
   gem 'geckodriver-helper'
   gem 'rubocop'
   gem 'rubocop-performance'
   gem 'selenium-webdriver'
   gem 'vcr'
-  gem 'webmock'
+  gem 'webmock', '>= 3.8.3'
 end
 
 # Debugging gems
