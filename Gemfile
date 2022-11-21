@@ -22,7 +22,7 @@ gem 'rails-i18n'
 # Generate html based on markdown in views
 gem 'redcarpet', '~> 3.4.0'
 
-gem 'dalli'
+gem 'dalli', '>= 3.2.3'
 gem 'hashie'
 gem 'mini_magick'
 gem 'minitest'
