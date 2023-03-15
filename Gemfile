@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 
 gem 'nokogiri'
-gem 'rails', '~> 5.2'
+gem 'rails', '~> 6.1', '>= 6.1.7.3'
 
 # For appdata redirections (https -> http)
 gem 'open_uri_redirections'
@@ -17,7 +17,7 @@ gem 'gettext_i18n_rails', '>= 0.4.3'
 
 # rails-i18n provides translations for ActiveRecord
 # validation error messages
-gem 'rails-i18n'
+gem 'rails-i18n', '>= 6.0.0'
 
 # Generate html based on markdown in views
 gem 'redcarpet', '~> 3.4.0'
