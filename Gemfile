@@ -43,7 +43,7 @@ group :development do
   # no need to load the gem via require
   # we only need the rake tasks
   gem 'gettext', '>= 1.9.3', require: false
-  gem 'solargraph'
+  gem 'solargraph', '>= 0.39.9'
   gem 'web-console'
 end
 
@@ -55,8 +55,8 @@ group :test do
   gem 'capybara'
   gem 'faker'
   gem 'geckodriver-helper'
-  gem 'rubocop'
-  gem 'rubocop-performance'
+  gem 'rubocop', '>= 0.89.0'
+  gem 'rubocop-performance', '>= 1.7.0'
   gem 'selenium-webdriver'
   gem 'vcr'
   gem 'webmock'
