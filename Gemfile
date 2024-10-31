@@ -55,7 +55,7 @@ group :test do
   gem 'capybara'
   gem 'faker'
   gem 'geckodriver-helper'
-  gem 'rubocop'
+  gem 'rubocop', '>= 1.66.0'
   gem 'rubocop-performance'
   gem 'selenium-webdriver'
   gem 'vcr'
