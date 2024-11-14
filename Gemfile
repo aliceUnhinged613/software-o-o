@@ -17,7 +17,7 @@ gem 'gettext_i18n_rails', '>= 0.4.3'
 
 # rails-i18n provides translations for ActiveRecord
 # validation error messages
-gem 'rails-i18n'
+gem 'rails-i18n', '>= 8.0.0'
 
 # Generate html based on markdown in views
 gem 'redcarpet', '~> 3.4.0'
