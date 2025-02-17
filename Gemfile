@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 
 gem 'nokogiri'
-gem 'rails', '~> 5.2'
+gem 'rails', '~> 7.0', '>= 7.0.0'
 
 # For appdata redirections (https -> http)
 gem 'open_uri_redirections'
@@ -56,7 +56,7 @@ group :test do
   gem 'faker'
   gem 'geckodriver-helper'
   gem 'rubocop'
-  gem 'rubocop-performance'
+  gem 'rubocop-performance', '>= 1.24.0'
   gem 'selenium-webdriver'
   gem 'vcr'
   gem 'webmock'
