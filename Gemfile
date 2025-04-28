@@ -2,8 +2,8 @@
 
 source 'https://rubygems.org'
 
-gem 'nokogiri'
-gem 'rails', '~> 5.2'
+gem 'nokogiri', '>= 1.18.8'
+gem 'rails', '~> 7.0', '>= 7.0.0'
 
 # For appdata redirections (https -> http)
 gem 'open_uri_redirections'
@@ -43,7 +43,7 @@ group :development do
   # no need to load the gem via require
   # we only need the rake tasks
   gem 'gettext', '>= 1.9.3', require: false
-  gem 'solargraph'
+  gem 'solargraph', '>= 0.40.0'
   gem 'web-console'
 end
 
