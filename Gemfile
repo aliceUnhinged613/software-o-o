@@ -32,7 +32,7 @@ gem 'prometheus_exporter'
 gem 'puma_worker_killer'
 
 # HTTP client library for OBS Client
-gem 'faraday'
+gem 'faraday', '>= 2.14.1'
 gem 'faraday_middleware'
 gem 'multi_xml'
 
